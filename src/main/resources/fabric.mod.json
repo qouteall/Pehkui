@@ -18,8 +18,7 @@
 	],
 	"depends":
 	{
-		"fabricloader": ">=0.4.0",
-		"fabric": "*"
+		"fabricloader": ">=0.4.0"
 	},
 	"icon": "assets/pehkui/icon.png",
 	"environment": "*",
@@ -27,17 +26,13 @@
 	{
 		"main":
 		[
-			"virtuoel.pehkui.Pehkui"
+			
 		],
 		"client":
 		[
-			"virtuoel.pehkui.PehkuiClient"
+			
 		]
 	},
-	"mixins":
-	[
-		"pehkui.mixins.json"
-	],
 	"custom":
 	{
 		"modmenu:api": true

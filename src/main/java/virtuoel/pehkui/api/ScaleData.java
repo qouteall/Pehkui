@@ -6,7 +6,6 @@ import net.minecraft.entity.Entity;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.util.PacketByteBuf;
 import net.minecraft.util.math.MathHelper;
-import virtuoel.pehkui.entity.ResizableEntity;
 
 public class ScaleData
 {
@@ -14,7 +13,7 @@ public class ScaleData
 	
 	public static ScaleData of(Entity entity)
 	{
-		return ((ResizableEntity) entity).pehkui_getScaleData();
+		return IDENTITY;
 	}
 	
 	protected float scale = 1.0F;
